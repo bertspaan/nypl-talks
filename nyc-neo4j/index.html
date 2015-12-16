@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Histograph + Space/Time Directory + Neo4j</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <link rel="stylesheet" href="style.css" id="thie">
+  <script src="d3.v3.min.js" charset="utf-8"></script>
+	<script src="big.js"></script>
+</head>
+<body>
+  <span id="nypl"></span>
+  <span id="background-image"></span>
+  <div>Hi!<br />I'm Bert Spaan!</div>
+  <div>Software Engineer + Cartographer</div>
+  <div><em>Previously</em>: Histograph, Waag&nbsp;Society, Amsterdam</div>
+  <div><em>Currently</em>: Space/Time&nbsp;Directory, NYPL&nbsp;Labs</div>
+
+  <div>Histograph</div>
+  <div>Search engine / geocoder / data API for historical place names</div>
+
+  <div>Imports data from different data sources: GeoNames, TGN, DBpedia, monuments, archives, etc.</div>
+  <div>Graph of place names: <em>Amsterdam from GeoNames</em> <code>sameAs</code> <em>Amsterdam from TGN</em></div>
+  <div>Old names, alternative spellings: <em>Amstelledamme</em> <code>sameAs</code> <em>Amsterdam</em></div>
+  <div>Hierarchy: <em>Amsterdam</em> <code>liesIn</code> <em>Noord-Holland</em></div>
+  <div>Old hierarchies: <em>Akersloot</em> <code>absorbedBy</code> <em>Castricum</em></div>
+  <div class="iframe">
+    <iframe src="http://histograph.io/viewer/#search=stalinlaan" width="100%" height="100%"></iframe>
+  </div> <!--  Other examples: Donald Ducklaan, Amsteldijk, dataset=pd, muiderslot type=hg:Monument-->
+
+  <div>Space/Time Directory</div>
+  <div class="iframe">
+    <iframe src="http://spacetime.nypl.org/" width="100%" height="100%"></iframe>
+  </div>
+  <div>Maps: <em>Map</em> <code>depicts</code> <em>Polygon</em></div>
+  <div>Photos: <em>Photo</em> <code>depicts</code> <em>Location</em></div>
+
+  <div><em>Histograph</em>: Neo4j + Elasticsearch</div>
+
+  <div><img src="graph.svg" /></div>
+
+  <div>Problem: no nodes for <i>concepts</i>, paths of arbitrary length</div>
+  <div>Questions: are there photos of this area is this year?</div>
+  <div>Questions: what is the old name of this street?</div>
+  <div>Questions: which buildings are on this photo?</div>
+
+  <div>Live demo!</div>
+  <div>GitHub: <a href="https://github.com/histograph">https://github.com/histograph</a> &amp; <a href="https://github.com/graphmalizer">https://github.com/graphmalizer</a></div>
+  <div><h4>Thanks!&nbsp;<img src="thanks.png" /></h4></div>
+
+
+</body>
+</html>
