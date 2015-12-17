@@ -162,7 +162,7 @@ li {
   position: fixed;
   right: 30px;
   bottom: 30px;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   z-index: 9000;
 }
