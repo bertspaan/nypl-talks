@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NYC Space/Time Directory - Maps Camp 2016</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <link rel="stylesheet" href="style.css" id="thie">
+  <script src="d3.v3.min.js" charset="utf-8"></script>
+	<script src="big.js"></script>
+</head>
+<body>
+  <span id="nypl"></span>
+  <a id='superlink' href='http://nypl.org' target='_blank'></a>
+  <span id="background-image"></span>
+  <div class="title">
+    <h1>Open Source Time and Space</h1>
+    <div>Or:</div>
+    <h2>
+    How to build a Space/Time Directory?
+  </h2>
+  </div>
+
+  <div><i>How did my street look in the 1920s?</i></div>
+  <div><i>On which cemetery are my ancestors buried?</i></div>
+  <div><i>Do you have maps of my house around 1900?</i></div>
+
+  <div>Our search engine:</div>
+  <div><img src="milstein.jpg" /></div>
+  <div><img src="librarians.jpg" /></div>
+
+  <div><img src="city-directories.jpg" /></div>
+  <div><img src="city-directory.jpg" /></div>
+  <div><img src="new-york-1769.jpg" /></div>
+  <div><img src="fire-atlas.jpg" /></div>
+  <div><img src="valentines-manual-1841.jpg" /></div>
+  <div><img src="herald-square.jpg" /></div>
+
+  <div>The NYPL has the materials (<b>and librarians!</b>) you need to answer those questions - however, this is not so easy...</div>
+  <div>First step: <b>digitization</b></div>
+
+  <div><img src="digitization.jpg" /></div>
+  <div><img src="digital-collections.jpg" superlink="http://digitalcollections.nypl.org/items/423e7350-abce-0132-a94b-58d385a7b928"/></div>
+
+  <div>Next step: <b>extracting data</b></div>
+
+  <div><img src="mapwarper.jpg" /></div>
+  <div><img src="mapwarper2.jpg" superlink='http://maps.nypl.org/warper/maps/16821#Show_tab'/></div>
+
+  <div class="video">
+    <video autoplay loop>
+      <source src="scrollnyc.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div><img src="building-inspector.jpg" /></div>
+  <div class="video">
+    <video autoplay loop>
+      <source src="address-586.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div>Last step: <b>bringing it all together</b></div>
+  <div>
+    <b>NYC&nbsp;Space/Time&nbsp;Directory<br /></b>
+      🏛🚀💾
+  </div>
+  <div>Combine NYPL's collections and data — through space and time!</div>
+  <div class="video">
+    <video controls loop>
+      <source src="spacetime-explained.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div><img src="spacetime1.svg" /></div>
+  <div><img src="spacetime2.svg" /></div>
+
+  <div>
+    <b>NYC Space/Time Directory</b> = NYPL data + external datasets + databases +
+    APIs + search + geo + RDF + open source + digitization + crowdsourcing + community
+  </div>
+  <div><b>Goals:</b> open data, plain JSON files, for everyone to download</div>
+  <div><b>Goals:</b> APIs, open source, search tools, user interfaces</div>
+
+  <div>New crowdsourcing tools — geotag our collection</div>
+  <div><img src="greyhound-bus-terminal.jpg" /></div>
+  <div><img src="uss-illinois.jpg" /></div>
+  <div><img src="dc-tiles.jpg" /></div>
+
+  <div><img src="oldnyc1.jpg" /></div>
+  <div><img src="oldnyc2.jpg" /></div>
+
+  <div class="video">
+    <video autoplay loop>
+      <source src="fifth_avenue.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div>220,000 photos in Digital Collections, and new ones added every day</div>
+
+  <div><img src="graham-metropolitan.jpg" /></div>
+  <div><img src="graham-metropolitan-streetview.jpg" /></div>
+  <div><img src="graham-metropolitan-camera.jpg" /></div>
+
+  <div><img src="surveyor.jpg" /></div>
+  <div><img src="here-cameras.jpg" /></div>
+
+  <div class="iframe">
+    <iframe src="http://spacetime.nypl.org/surveyor/" width="100%" height="100%"></iframe>
+  </div>
+
+  <div class="iframe">
+    <iframe src="http://spacetime.nypl.org/here/" width="100%" height="100%"></iframe>
+  </div>
+
+  <div><b>Example</b>: who lived where in 1854?</div>
+  <div>Georectified maps + Building Inspector +
+    OCR'd city directory = <b>graph of addresses &amp; people</b></div>
+  <div><img src="city-directory.jpg" /></div>
+  <div><img src="fire-atlas.jpg" /></div>
+  <div><img src="city-directory.png" /></div>
+  <div><img src="streets-addresses.png" /></div>
+  <div><img src="neo4j.jpg" /></div>
+
+  <div><img src="spacetime3.svg" /></div>
+  <div><img src="ward11.jpg" /></div>
+  <div><img src="216-avenue-b.jpg" /></div>
+  <div><img src="avenue-b.jpg" /></div>
+
+  <div>One database with all NYPL Space/Time data</div>
+
+  <div class="iframe">
+    <iframe src="http://spacetime.nypl.org/atlas/" width="100%" height="100%"></iframe>
+  </div>
+
+  <div><b>Example</b>: maps by decade</div>
+
+  <div class="gist">
+    <script src="https://gist.github.com/bertspaan/3674a0df31df6f6c4ce24fa003adf320.js"></script>
+  </div>
+
+  <div><img src="decades-1880-1900.svg" /></div>
+  <div><img src="maps-by-decade.jpg" superlink='http://spacetime.nypl.org/maps-by-decade/'/></div>
+
+  <div>More examples!</div>
+
+  <div><img src="automobile-directory.jpg" /></div>
+  <div><img src="marble-hill-hupmobile.jpg" /></div>
+  <div><img src="marble-hill-map.jpg" /></div>
+
+  <div><img src="brewers-directory.jpg" /></div>
+  <div><img src="ebling-brewery.jpg" /></div>
+  <div><img src="ebling-brewery-map.jpg" /></div>
+  <div><img src="ebling-brewery-streetview.jpg" /></div>
+
+  <!-- ideas: machine learning to parse business directories
+  label + feature extraction from maps -->
+
+  <div>Thanks! <img src="thanks.png" /></div>
+
+  <div><b>Stay in touch:</b> <br />
+    <a href="https://twitter.com/nypl_labs">@nypl_labs</a><br />
+    <a href="mailto:spacetime@nypl.org">spacetime@nypl.org</a><br />
+    Bert&nbsp;Spaan&nbsp;-&nbsp;<a href="https://twitter.com/bertspaan">@bertspaan</a>
+    <a href="https://github.com/nypl-spacetime">github.com/nypl-spacetime</a><br />
+  </div>
+</body>
+</html>
