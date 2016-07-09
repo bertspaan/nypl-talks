@@ -185,9 +185,14 @@ video {
   z-index: 9000;
 }
 
+.title {
+  width: 100%;
+}
+
 .title > * {
   text-align: center;
   line-height: 110%;
+  margin: 0 auto;
 }
 
 #superlink {
@@ -201,7 +206,7 @@ video {
 }
 
 .wiggle {
-  display: inline-block;
+  display: block;
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
   animation-name: wiggle;
