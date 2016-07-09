@@ -1,5 +1,5 @@
-# Talk about Space/Time Directory on School of Data
+# Talk about Space/Time Directory on Maps Camp 2016
 
-This presentation: http://bertspaan.nl/nypl-talks/school-of-date
+This presentation: http://bertspaan.nl/nypl-talks/maps-camp
 
-School of Data: http://schoolofdata.nyc/
+http://mapscamp.io/
