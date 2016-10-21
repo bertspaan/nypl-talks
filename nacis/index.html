@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NYC Space/Time Directory - NACIS 2016</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <link rel="stylesheet" href="style.css" id="thie">
+  <script src="d3.v3.min.js" charset="utf-8"></script>
+	<script src="big.js"></script>
+</head>
+<body>
+  <span id="nypl"></span>
+  <a id='superlink' href='http://nypl.org' target='_blank'></a>
+  <span id="background-image"></span>
+  <div>
+    <h3>How to build a Space/Time Directory?</h3>
+    <img class="bat wiggle" src="bat-large.png" />
+  </div>
+  <div>Hi!<br />I'm Bert Spaan!</br><a href="https://twitter.com/bertspaan">@bertspaan</a></div>
+  <div><img src="nypl.jpg" /></div>
+
+  <div>First step: maps!</div>
+
+  <!-- New York 1769 -->
+  <div><img superlink="http://digitalcollections.nypl.org/items/510d47da-eeda-a3d9-e040-e00a18064a99" src="dc/510d47da-eeda-a3d9-e040-e00a18064a99.jpg" /></div>
+
+  <!-- Denver -->
+  <div><img superlink="http://digitalcollections.nypl.org/items/510d47d9-7d7a-a3d9-e040-e00a18064a99" src="dc/510d47d9-7d7a-a3d9-e040-e00a18064a99.jpg" /></div>
+
+  <!-- Coney Island -->
+  <div><img superlink="http://maps.nypl.org/warper/maps/27135#Preview_tab" src="dc/c3ed89ec-af56-de4e-e040-e00a18060ddc.jpg" /></div>
+
+  <!-- Plan of the city of New-York -->
+  <div><img superlink="http://digitalcollections.nypl.org/items/510d47da-eeaa-a3d9-e040-e00a18064a99" src="dc/510d47da-eeaa-a3d9-e040-e00a18064a99.jpg" /></div>
+
+  <!-- Greenpoint -->
+  <div><img superlink="http://digitalcollections.nypl.org/items/510d47e2-1661-a3d9-e040-e00a18064a99" src="dc/510d47e2-1661-a3d9-e040-e00a18064a99.jpg" /></div>
+
+  <!-- Nederland! -->
+  <div><img superlink="http://digitalcollections.nypl.org/items/510d47e4-52a6-a3d9-e040-e00a18064a99" src="dc/510d47e4-52a6-a3d9-e040-e00a18064a99.jpg" /></div>
+
+  <div>And other things, too:</div>
+
+  <div class="iframe">
+    <iframe src="http://localhost:9876/" width="100%" height="100%"></iframe>
+    <!-- <iframe src="http://spacetime.nypl.org/panoramic-view-of-manhattan" width="100%" height="100%"></iframe> -->
+  </div>
+
+  <!-- USS Illinois -->
+  <div><img superlink="http://digitalcollections.nypl.org/items/510d47df-3364-a3d9-e040-e00a18064a99" src="dc/510d47df-3364-a3d9-e040-e00a18064a99.jpg" /></div>
+
+  <!-- Greyhound Station -->
+  <div><img superlink="http://digitalcollections.nypl.org/items/510d47d9-4f7c-a3d9-e040-e00a18064a99" src="dc/510d47d9-4f7c-a3d9-e040-e00a18064a99.jpg" /></div>
+
+  <!-- Auto in California -->
+  <div><img superlink="http://digitalcollections.nypl.org/items/309cea-91fe-4288-e040-e00a18066c61" src="dc/309cea-91fe-4288-e040-e00a18066c61.jpg" /></div>
+
+  <!-- Houses in Manhattan -->
+  <div><img superlink="http://digitalcollections.nypl.org/items/510d47d9-4faf-a3d9-e040-e00a18064a99" src="dc/510d47d9-4faf-a3d9-e040-e00a18064a99.jpg" /></div>
+
+  <!-- More houses in Manhattan -->
+  <div><img superlink="http://digitalcollections.nypl.org/items/510d47d9-4fbb-a3d9-e040-e00a18064a99" src="dc/510d47d9-4fbb-a3d9-e040-e00a18064a99.jpg" /></div>
+
+  <!-- Antlers Hotel -->
+  <div><img superlink="http://digitalcollections.nypl.org/items/510d47da-88b8-a3d9-e040-e00a18064a99" src="dc/510d47da-88b8-a3d9-e040-e00a18064a99.jpg" /></div>
+
+  <!-- CITY DIRECTORIES -->
+  <div><img src="city-directories/1.jpg" /></div>
+  <div><img src="city-directories/2.jpg" /></div>
+  <div><img src="city-directories/3.jpg" /></div>
+  <div><img src="city-directories/4.jpg" /></div>
+  <div><img src="city-directories/detail.jpg" /></div>
+
+  <div>Second step: digitization!</div>
+
+  <div><img src="digitization.jpg" /></div>
+  <div><img superlink="http://digitalcollections.nypl.org/items/510d47e1-2d9a-a3d9-e040-e00a18064a99" src="digital-collections.png" /></div>
+
+  <div>Third step: extract data!</div>
+
+  <div><img class="white" src="mapwarper.jpg" /></div>
+  <div><img class="white" src="mapwarper2.jpg" /></div>
+  <div><img class="white" src="building-inspector.jpg" /></div>
+  <div class="video">
+    <video autoplay loop>
+      <source src="address-586.mp4" type="video/mp4">
+    </video>
+  </div>
+  <!-- Oral History -->
+
+  <div>Fourth step: combining it all!</div>
+
+  <div>
+    <b>NYC Space/Time Directory</b> = NYPL data + external datasets + databases +
+    APIs + search + geo + RDF + open source + digitization + crowdsourcing + community
+  </div>
+  <div><b>Goals:</b> open data, plain JSON files, for everyone to download</div>
+  <div><b>Goals:</b> APIs, open source, search tools, user interfaces</div>
+  <div><b>Goals:</b> tools that allow people to tell new stories about NYC's history</div>
+
+  <div>Fifth step: more crowdsourcing!</div>
+  <div><img class="white" src="surveyor.jpg" /></div>
+  <div><img src="here-cameras.jpg" /></div>
+  <div><img src="graham-metropolitan.jpg" /></div>
+  <div><img class="white" src="graham-metropolitan-streetview.jpg" /></div>
+  <div><img src="graham-metropolitan-camera.jpg" /></div>
+
+  <div><img src="label-fields.png" /></div>
+
+  <div>Example 1: people and their addresses</div>
+  <div><img src="city-directory.jpg" /></div>
+  <div><img src="fire-atlas.jpg" /></div>
+  <div><img src="city-directory.png" /></div>
+  <div><img class="white" src="streets-addresses.png" /></div>
+  <div><img class="white" src="neo4j.jpg" /></div>
+
+  <div>Example 2: beer</div>
+
+  <div><img src="brewers-directory.jpg" /></div>
+  <div><img src="ebling-brewery.jpg" /></div>
+  <div><img class="white" src="ebling-brewery-map.jpg" /></div>
+  <div><img class="white" src="ebling-brewery-streetview.jpg" /></div>
+
+  <div>Example 3: cars</div>
+
+  <div><img src="automobile-directory.jpg" /></div>
+  <div><img src="marble-hill-hupmobile.jpg" /></div>
+  <div><img class="white" src="marble-hill-map.jpg" /></div>
+
+  <div>Sixth step: make things!</div>
+
+  <div class="video">
+    <video autoplay loop>
+      <source src="fifth_avenue.mp4" type="video/mp4">
+    </video>
+  </div>
+
+   <div class="iframe">
+    <iframe src="http://bertspaan.nl/all-the-maps/" width="100%" height="100%"></iframe>
+  </div>
+
+  <div class="iframe">
+    <iframe src="http://bertspaan.nl/along-the-hudson/" width="100%" height="100%"></iframe>
+  </div>
+
+  <div class="iframe">
+    <iframe src="http://bertspaan.nl/maps-by-decade/" width="100%" height="100%"></iframe>
+  </div>
+
+  <div>
+    <ol>
+      <li><a style="white-space: nowrap;" href="http://bertspaan.nl/all-the-maps">bertspaan.nl/all-the-maps</a></li>
+      <li><a style="white-space: nowrap;" href="http://bertspaan.nl/along-the-hudson">bertspaan.nl/along-the-hudson</a></li>
+      <li><a style="white-space: nowrap;" href="http://bertspaan.nl/maps-by-decade">bertspaan.nl/maps-by-decade</a></li>
+    </ol>
+  </div>
+
+  <div>Seventh step: open data + community!</div>
+  <div><a href="http://spacetime.nypl.org">spacetime.nypl.org</a></div>
+  <div>Thanks!</div>
+</body>
+</html>
