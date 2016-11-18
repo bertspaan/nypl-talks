@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NYC Space/Time Directory - NYU GIS DAY 2016</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <link rel="stylesheet" href="style.css" id="thie">
+  <script src="d3.v3.min.js" charset="utf-8"></script>
+	<script src="big.js"></script>
+</head>
+<body>
+  <span id="nypl"></span>
+  <a id='superlink' href='http://nypl.org' target='_blank'></a>
+  <span id="background-image"></span>
+  <div>
+    <h3>How to build a Space/Time Directory?</h3>
+    <img class="bat wiggle" src="bat-large.png" />
+  </div>
+  <div>Hi!<br />I'm Bert Spaan!</br><a href="https://twitter.com/bertspaan">@bertspaan</a></div>
+  <div><a style="white-space: nowrap;" href="http://bertspaan.nl/nypl-talks/nyu-gis-day">bertspaan.nl/nypl-talks/nyu-gis-day</a></div>
+
+  <!-- <div><img src="nypl.jpg" /></div> -->
+
+  <div>Main goal: make the Library's collections and NYC's history more accessible</div>
+
+  <div>Example 1: Brooklyn's farms</div>
+  <div><img src="new-lots-road-farm.jpg" /></div>
+  <div><img src="new-lots-road-dc.png" /></div>
+  <div><img src="new-lots-road-map.jpg" /></div>
+  <div><img src="new-lots-road-map-detail.jpg" /></div>
+  <div><img src="new-lots-road-streetview.png" /></div>
+
+  <div>Example 2: beer</div>
+  <div><img src="brewers-directory.jpg" /></div>
+  <div><img src="ebling-brewery.jpg" /></div>
+  <div><img class="white" src="ebling-brewery-map.jpg" /></div>
+  <div><img class="white" src="ebling-brewery-streetview.jpg" /></div>
+
+  <div>Example 3: cars</div>
+  <div><img src="automobile-directory.jpg" /></div>
+  <div><img src="automobile-directory-detail.jpg" /></div>
+  <div><img src="marble-hill-hupmobile.jpg" /></div>
+  <div><img class="white" src="marble-hill-map.jpg" /></div>
+  <div><img src="marble-hill-streetview.png" /></div>
+
+  <div><b>First step:</b> the Libary's collection!</div>
+
+  <!-- New York 1769 -->
+  <div><img superlink="http://digitalcollections.nypl.org/items/510d47da-eeda-a3d9-e040-e00a18064a99" src="dc/510d47da-eeda-a3d9-e040-e00a18064a99.jpg" /></div>
+
+  <!-- Coney Island -->
+  <div><img superlink="http://maps.nypl.org/warper/maps/27135#Preview_tab" src="dc/c3ed89ec-af56-de4e-e040-e00a18060ddc.jpg" /></div>
+
+  <!-- Nederland! -->
+  <div><img superlink="http://digitalcollections.nypl.org/items/510d47e4-52a6-a3d9-e040-e00a18064a99" src="dc/510d47e4-52a6-a3d9-e040-e00a18064a99.jpg" /></div>
+
+  <!-- Greyhound Station -->
+  <div><img superlink="http://digitalcollections.nypl.org/items/510d47d9-4f7c-a3d9-e040-e00a18064a99" src="dc/510d47d9-4f7c-a3d9-e040-e00a18064a99.jpg" /></div>
+
+  <div class="iframe">
+    <!-- <iframe src="http://localhost:9876/" width="100%" height="100%"></iframe> -->
+    <iframe src="http://spacetime.nypl.org/panoramic-view-of-manhattan" width="100%" height="100%"></iframe>
+  </div>
+
+  <!-- CITY DIRECTORIES -->
+  <div><img src="city-directory-detail.jpg" /></div>
+
+  <div><b>Second step:</b> digitization!</div>
+
+  <div><img src="diu.jpg" /></div>
+
+  <div><b>Third step:</b> extract data!</div>
+
+  <div><img class="white" src="mapwarper.jpg" /></div>
+  <div><img class="white" src="mapwarper2.jpg" /></div>
+  <div><img class="white" src="building-inspector.jpg" /></div>
+  <div class="video">
+    <video autoplay loop>
+      <source src="address-586.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div><b>Fourth step:</b> combining it all!</div>
+
+  <div>
+    <b>NYC Space/Time Directory</b> = NYPL data + external datasets + databases +
+    APIs + search + geo + RDF + open source + digitization + crowdsourcing + community
+  </div>
+  <div><b>Goals:</b> open data, plain JSON files, for everyone to download</div>
+  <div><b>Goals:</b> APIs, open source, search tools, user interfaces</div>
+  <div><b>Goals:</b> tools that allow people to tell new stories about NYC's history</div>
+
+  <div><img src="city-directory.jpg" /></div>
+  <div><img src="fire-atlas.jpg" /></div>
+  <div><img src="city-directory.png" /></div>
+  <div><img class="white" src="streets-addresses.png" /></div>
+  <div><img class="white" src="neo4j.jpg" /></div>
+  <div><img src="city-directory-lines.gif" /></div>
+
+  <div><b>Fifth step:</b> more crowdsourcing!</div>
+
+  <div><img src="surveyor.png" /></div>
+  <div><img src="surveyor-cameras.jpg" /></div>
+  <div><img src="graham-metropolitan.jpg" /></div>
+  <div><img class="white" src="graham-metropolitan-streetview.jpg" /></div>
+  <div><img src="graham-metropolitan-camera.jpg" /></div>
+
+  <div><img src="select-landmark.png" /></div>
+  <div><img src="trace-maps.png" /></div>
+  <div><img src="label-fields.png" /></div>
+
+  <!-- Staffsourcing ?? -->
+<!--   <div class="iframe">
+    <iframe src="http://spacetime.nypl.org/staffsourcing/" width="100%" height="100%"></iframe>
+  </div>
+
+ -->  <div><b>Sixth step:</b> make things!</div>
+
+  <div class="video">
+    <video autoplay loop>
+      <source src="fifth-avenue.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div class="iframe">
+    <iframe src="http://bertspaan.nl/all-the-maps/" width="100%" height="100%"></iframe>
+  </div>
+
+  <div class="iframe">
+    <iframe src="http://bertspaan.nl/along-the-hudson/" width="100%" height="100%"></iframe>
+  </div>
+
+  <div><b>Seventh step:</b> open data + community!</div>
+  <div><a href="http://spacetime.nypl.org">spacetime.nypl.org</a></div>
+  <div><img src="spacetime-data.png" /></div>
+
+  <div><a href="https://github.com/nypl-spacetime">github.com/nypl-spacetime</a></div>
+  <div><img src="spacetime-github.png" /></div>
+
+  <div><img src="meetup.png" /></div>
+
+  <div>Thanks!</div>
+</body>
+</html>
