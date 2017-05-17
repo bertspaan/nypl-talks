@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NYC Space/Time Directory</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <link rel="stylesheet" href="style.css">
+  <script src="../assets/js/d3.v3.min.js" charset="utf-8"></script>
+  <script src="../assets/js/big.js"></script>
+</head>
+<body>
+  <span id="nypl"></span>
+  <a id='superlink' href='http://nypl.org' target='_blank'></a>
+  <span id="background-image"></span>
+
+  <div><strong>NYPL's NYC Space/Time Directory</strong></div>
+  <div>I am <b>Bert&nbsp;Spaan</b>!</div>
+  <div><a style="white-space: nowrap;" href="http://bertspaan.nl/nypl-talks/hunter-geoinformatics-seminar">bertspaan.nl/nypl-talks/hunter-geoinformatics-seminar</a></div>
+
+  <div><img src="../assets/histograph.png" /></div>
+  <!-- misschien tomtom? -->
+  <div><img src="../assets/maptime-ams-waag.jpg" /></div>
+  <div><img src="../assets/haarlem.png" /></div>
+
+  <div><img src="../assets/nypl.jpg" /></div>
+
+  <div>Example 1: <strong>Brooklyn's farms</strong></div>
+  <div><img src="../assets/new-lots-road-farm.jpg" /></div>
+  <div><img src="../assets/new-lots-road-dc.png" /></div>
+  <div><img src="../assets/new-lots-road-map.jpg" /></div>
+  <div><img src="../assets/new-lots-road-map-detail.jpg" /></div>
+  <div><img src="../assets/new-lots-road-streetview.png" /></div>
+
+  <div>Example 2: <strong>beer</strong></div>
+  <div><img src="../assets/brewers-directory.jpg" /></div>
+  <div><img src="../assets/ebling-brewery.jpg" /></div>
+  <div><img class="white" src="../assets/ebling-brewery-map.jpg" /></div>
+  <div><img class="white" src="../assets/ebling-brewery-streetview.jpg" /></div>
+
+  <div>Example 3: <strong>cars</strong></div>
+  <div><img src="../assets/automobile-directory.jpg" /></div>
+  <div><img src="../assets/automobile-directory-detail.jpg" /></div>
+  <div><img src="../assets/marble-hill-hupmobile.jpg" /></div>
+  <div><img class="white" src="../assets/marble-hill-map.jpg" /></div>
+  <div><img src="../assets/marble-hill-streetview.png" /></div>
+
+  <div><b>First step:</b> the Libary's collections!</div>
+
+  <!-- New York 1769 -->
+  <div><img superlink="http://digitalcollections.nypl.org/items/510d47da-eeda-a3d9-e040-e00a18064a99" src="../assets/dc/510d47da-eeda-a3d9-e040-e00a18064a99.jpg" /></div>
+
+  <!-- Coney Island -->
+  <div><img superlink="http://digitalcollections.nypl.org/items/c3ed89ec-af56-de4e-e040-e00a18060ddc" src="../assets/dc/c3ed89ec-af56-de4e-e040-e00a18060ddc.jpg" /></div>
+
+  <!-- Long Island City -->
+  <div><img src="../assets/dc/nypl.digitalcollections.632461fe-bb76-97e3-e040-e00a18063f5b.001.q.jpg" /></div>
+
+  <!-- Nederland -->
+  <div><img src="../assets/dc/510d47e4-52a6-a3d9-e040-e00a18064a99.jpg" /></div>
+
+  <!-- Greyhound Station -->
+  <div><img superlink="http://digitalcollections.nypl.org/items/510d47d9-4f7c-a3d9-e040-e00a18064a99" src="../assets/dc/510d47d9-4f7c-a3d9-e040-e00a18064a99.jpg" /></div>
+
+  <!-- Auto's en gebouwen -->
+  <div><img superlink="http://digitalcollections.nypl.org/items/510d47d9-4faf-a3d9-e040-e00a18064a99" src="../assets/dc/510d47d9-4faf-a3d9-e040-e00a18064a99.jpg" /></div>
+
+  <div><img src="../assets/williamsburg-1920.png" /></div>
+
+  <!-- South Street -->
+  <div><img src="../assets/dc/nypl.digitalcollections.510d47d9-4f0e-a3d9-e040-e00a18064a99.001.v.jpg" /></div>
+
+  <div class="iframe">
+    <iframe src="http://spacetime.nypl.org/panoramic-view-of-manhattan" width="100%" height="100%"></iframe>
+  </div>
+
+  <div><img src="../assets/south-street-google.png" /></div>
+
+  <!-- City Directories -->
+  <div><img src="../assets/city-directory-1849.jpg" /></div>
+  <div><img src="../assets/city-directory-1923.jpg" /></div>
+  <div><img src="../assets/city-directories.gif" /></div>
+
+  <div><b>Second step:</b> digitization!</div>
+  <div><img src="../assets/diu.jpg" /></div>
+  <div><img src="../assets/digital-collections.png" /></div>
+
+  <div><b>Third step:</b> extract data!</div>
+
+  <div><img src="../assets/menus.png" /></div>
+  <div><img src="../assets/menus-data.png" /></div>
+  <div><img src="../assets/mapwarper1.png" /></div>
+  <div><img src="../assets/mapwarper2.png" /></div>
+  <div><img src="../assets/mapwarper3.png" /></div>
+  <div class="video">
+    <video autoplay loop>
+      <source src="../assets/scrollnyc.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div><img src="../assets/building-inspector1.png" /></div>
+  <div><img src="../assets/building-inspector2.png" /></div>
+  <div class="video">
+    <video autoplay loop>
+      <source src="../assets/address-586.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div class="iframe">
+    <iframe src="http://mgiraldo.github.io/centerlines/" width="100%" height="100%"></iframe>
+  </div>
+
+  <div><img src="../assets/city-directory.jpg" /></div>
+  <div><img src="../assets/terminal-city-directory-lines.png" /></div>
+  <div><img src="../assets/city-directories-columns.gif" /></div>
+
+  <div><b>Fourth step:</b> combining it all!</div>
+
+  <div>
+    <strong>NYC Space/Time Directory</strong>: NYPL data + external datasets + databases +
+    APIs + search + geo + RDF + open source + digitization + crowdsourcing + community
+  </div>
+
+  <div class="video">
+    <video controls>
+      <source src="../assets/spacetime-explained.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div><strong>NYC Space/Time Directory</strong>: all NYPL's historical geospatial data in <strong>one place and one format</strong></div>
+
+  <div><img src="../assets/spacetime-website.png" /></div>
+  <div><img src="../assets/mapwarper-data.png" /></div>
+  <div><img src="../assets/building-inspector-data.png" /></div>
+
+  <div><img src="../assets/spacetime-etl.svg" /></div>
+
+  <div><img src="../assets/dataflow.svg" /></div>
+  <div><img src="../assets/inference.svg" /></div>
+  <div><img src="../assets/dataset-dependencies.svg" /></div>
+
+  <div><b>Fifth step:</b> open data + community!</div>
+
+  <div><img src="../assets/spacetime-data.png" /></div>
+  <div><img src="../assets/qgis-building-inspector.png" /></div>
+  <div><img src="../assets/qgis-mapwarper.png" /></div>
+  <div><img src="../assets/qgis-nyc-streets.png" /></div>
+
+  <div><img src="../assets/spacetime-github.png" /></div>
+  <div><img src="../assets/spacetime-to-geojson.gif" /></div>
+  <div><img src="../assets/leaflet.geotagphoto.gif" /></div>
+
+  <div><img src="../assets/meetup.png" /></div>
+  <div><img src="../assets/walking-tour.jpg" /></div>
+
+  <div><b>Sixth step:</b> more crowdsourcing!</div>
+  <div><img src="../assets/surveyor.png" /></div>
+  <div><img src="../assets/graham-metropolitan.jpg" /></div>
+  <div><img src="../assets/graham-metropolitan-streetview.jpg" /></div>
+  <div><img src="../assets/graham-metropolitan-camera.jpg" /></div>
+  <div><img src="../assets/select-landmark.png" /></div>
+  <div><img src="../assets/trace-maps.png" /></div>
+
+  <div><img src="../assets/spacetime-data-ed.png" /></div>
+
+  <div><b>Seventh step:</b> make things!</div>
+
+  <div><img src="../assets/oldnyc1.png" /></div>
+  <div><img src="../assets/oldnyc2.png" /></div>
+
+  <div><a href="http://spacetime.nypl.org/maps-by-decade">spacetime.nypl.org/maps-by-decade</a></div>
+  <div><img src="../assets/maps-by-decade.gif" /></div>
+
+  <div class="video">
+    <video autoplay loop>
+      <source src="../assets/fifth-avenue.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div><img src="../assets/gergo-leah.jpg" /></div>
+
+  <div>Last example: <strong>historical addresses</strong></div>
+  <div><img class="white" src="../assets/city-directory-example-2.jpg" /></div>
+  <div><img class="white" src="../assets/84½-fulton.jpg" /></div>
+  <div><img src="../assets/sands-bottles.jpg" /></div>
+  <div><img src="../assets/100-fulton.jpg" /></div>
+  <div><img src="../assets/100-fulton-streetview.jpg" /></div>
+
+  <div><img src="../assets/building-inspector-terminal.png" /></div>
+  <div><img src="../assets/west-village.jpg" /></div>
+  <div><img src="../assets/building-inspector-nyc-streets-terminal.png" /></div>
+  <div><img src="../assets/city-directory-streets.png" /></div>
+  <div><img src="../assets/qgis-geocoded-city-directory.png" /></div>
+
+  <div class="iframe">
+    <iframe src="http://spacetime.nypl.org/tutorial-historical-addresses/no-text.html" width="100%" height="100%"></iframe>
+  </div>
+
+  <div><strong>Thanks!</strong> <br /> <a href="http://spacetime.nypl.org">spacetime.nypl.org</a></div>
+</body>
+</html>

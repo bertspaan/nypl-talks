@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NYC Space/Time Directory - Stadsarchief</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <link rel="stylesheet" href="style.css">
+  <script src="d3.v3.min.js" charset="utf-8"></script>
+  <script src="big.js"></script>
+</head>
+<body>
+  <span id="nypl"></span>
+  <a id='superlink' href='http://nypl.org' target='_blank'></a>
+  <span id="background-image"></span>
+
+  <div><strong>NYC Space/Time Directory - Stadsarchief Amsterdam</strong></div>
+  <div>Ik ben <b>Bert&nbsp;Spaan</b>!</div>
+  <div><a style="white-space: nowrap;" href="http://bertspaan.nl/nypl-talks/stadsarchief">bertspaan.nl/nypl-talks/stadsarchief</a></div>
+
+  <div><img src="histograph.png" /></div>
+  <div><img src="maptime-ams-website.png" /></div>
+  <div><img src="maptime-ams-waag.jpg" /></div>
+  <div><img src="haarlem.png" /></div>
+
+  <div><img src="nypl.jpg" /></div>
+  <div><img src="rose-main-reading-room.jpg" /></div>
+  <div><img src="nypl-locations.jpg" /></div>
+
+  <div><strong>NYPL Labs</strong></div>
+  <div><img src="menus.png" /></div>
+  <div><img src="menus-data.png" /></div>
+  <div><img src="stereogranimator.png" /></div>
+  <div><img src="oral-history.png" /></div>
+  <div><img src="pd-visualisation.png" /></div>
+
+  <div><strong>NYC Space/Time Directory</strong>: collecties van NYPL en geschiedenis van NYC, doorzoekbaar door ruimte en tijd</div>
+  <div><img src="spacetime-website.png" /></div>
+
+  <div>Voorbeeld 1: <strong>boerderijen in Brooklyn</strong></div>
+  <div><img src="new-lots-road-farm.jpg" /></div>
+  <div><img src="new-lots-road-dc.png" /></div>
+  <div><img src="new-lots-road-map.jpg" /></div>
+  <div><img src="new-lots-road-map-detail.jpg" /></div>
+  <div><img src="new-lots-road-streetview.png" /></div>
+
+  <div>Voorbeeld 2: <strong>bier</strong></div>
+  <div><img src="brewers-directory.jpg" /></div>
+  <div><img src="ebling-brewery.jpg" /></div>
+  <div><img class="white" src="ebling-brewery-map.jpg" /></div>
+  <div><img class="white" src="ebling-brewery-streetview.jpg" /></div>
+
+  <div>Voorbeeld 3: <strong>openbaar vervoer</strong></div>
+  <div><img src="dc/510d47e2-f20e-a3d9-e040-e00a18064a99.jpg" /></div>
+  <div><img src="dc/97652d0f-f821-f188-e040-e00a18066528.cropped.jpg" /></div>
+  <div><img src="dc/a8338fc0-f79f-0130-5e5e-58d385a7b928.cropped.jpg" /></div>
+
+  <div>Voorbeeld 4: <strong>auto's</strong></div>
+  <div><img src="automobile-directory.jpg" /></div>
+  <div><img src="automobile-directory-detail.jpg" /></div>
+  <div><img src="marble-hill-hupmobile.jpg" /></div>
+  <div><img class="white" src="marble-hill-map.jpg" /></div>
+  <div><img src="marble-hill-streetview.png" /></div>
+
+  <div><b>Stap 1:</b> de collectie van de bibliotheek!</div>
+
+  <!-- New York 1769 -->
+  <div><img superlink="http://digitalcollections.nypl.org/items/510d47da-eeda-a3d9-e040-e00a18064a99" src="dc/510d47da-eeda-a3d9-e040-e00a18064a99.jpg" /></div>
+
+  <!-- Coney Island -->
+  <div><img superlink="http://digitalcollections.nypl.org/items/c3ed89ec-af56-de4e-e040-e00a18060ddc" src="dc/c3ed89ec-af56-de4e-e040-e00a18060ddc.jpg" /></div>
+
+  <!-- Long Island City -->
+  <div><img src="dc/nypl.digitalcollections.632461fe-bb76-97e3-e040-e00a18063f5b.001.q.jpg" /></div>
+
+  <!-- Nederland -->
+  <div><img src="dc/510d47e4-52a6-a3d9-e040-e00a18064a99.jpg" /></div>
+
+  <!-- Greyhound Station -->
+  <div><img superlink="http://digitalcollections.nypl.org/items/510d47d9-4f7c-a3d9-e040-e00a18064a99" src="dc/510d47d9-4f7c-a3d9-e040-e00a18064a99.jpg" /></div>
+
+  <!-- Auto's en gebouwen -->
+  <div><img superlink="http://digitalcollections.nypl.org/items/510d47d9-4faf-a3d9-e040-e00a18064a99" src="dc/510d47d9-4faf-a3d9-e040-e00a18064a99.jpg" /></div>
+
+  <div><img src="williamsburg-1920.png" /></div>
+
+  <!-- South Street -->
+  <div><img src="dc/nypl.digitalcollections.510d47d9-4f0e-a3d9-e040-e00a18064a99.001.v.jpg" /></div>
+
+  <div class="iframe">
+    <iframe src="http://spacetime.nypl.org/panoramic-view-of-manhattan" width="100%" height="100%"></iframe>
+  </div>
+
+  <div><img src="south-street-google.png" /></div>
+
+  <!-- City Directories -->
+  <div><img src="city-directory-1849.jpg" /></div>
+  <div><img src="city-directory-1923.jpg" /></div>
+  <div><img src="city-directories.gif" /></div>
+
+  <div><b>Stap 2:</b> digitaliseren!</div>
+  <div><img src="diu.jpg" /></div>
+  <div><img src="digital-collections.png" /></div>
+
+  <div><b>Stap 3:</b> gegevens ontsluiten!</div>
+
+  <div><img src="mapwarper1.png" /></div>
+  <div><img src="mapwarper2.png" /></div>
+  <div><img src="mapwarper3.png" /></div>
+  <div class="video">
+    <video autoplay loop>
+      <source src="scrollnyc.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div><img src="building-inspector1.png" /></div>
+  <div><img src="building-inspector2.png" /></div>
+  <div class="video">
+    <video autoplay loop>
+      <source src="address-586.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div class="iframe">
+    <iframe src="http://mgiraldo.github.io/centerlines/" width="100%" height="100%"></iframe>
+  </div>
+
+  <div><img src="city-directory.jpg" /></div>
+  <div><img src="terminal-city-directory-lines.png" /></div>
+  <div><img src="city-directories-columns.gif" /></div>
+
+  <div><b>Step 4:</b> alles combineren!</div>
+
+  <div>
+    <strong>NYC Space/Time Directory</strong> = open data + zoeken + geo + open source + digitaliseren + crowdsourcing + community
+  </div>
+
+  <div class="video">
+    <video controls>
+      <source src="spacetime-explained.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div><strong>Hoofddoel</strong>: de collecties van de bibliotheek en de geschiedenis van New York toegankelijker maken, door ruimte en tijd</div>
+
+  <div>Alle historische geo-data van de NYPL, <strong>op één plek, in één formaat</strong> &amp; <strong>open data</strong></div>
+
+  <div><img src="mapwarper-data.png" /></div>
+  <div><img src="building-inspector-data.png" /></div>
+
+  <div><img src="spacetime-etl.svg" /></div>
+
+  <div><img src="dataflow.svg" /></div>
+  <div><img src="inference.svg" /></div>
+
+  <div><img src="spacetime-data.png" /></div>
+  <div><img src="qgis-building-inspector.png" /></div>
+  <div><img src="qgis-mapwarper.png" /></div>
+  <div><img src="qgis-nyc-streets.png" /></div>
+
+  <div><b>Step 5:</b> open source + community!</div>
+  <div><img src="spacetime-github.png" /></div>
+  <div><img src="leaflet.geotagphoto.gif" /></div>
+  <div><img src="meetup.png" /></div>
+
+  <div><b>Step 6:</b> meer crowdsourcing!</div>
+  <div><img src="surveyor.png" /></div>
+  <div><img src="graham-metropolitan.jpg" /></div>
+  <div><img src="graham-metropolitan-streetview.jpg" /></div>
+  <div><img src="graham-metropolitan-camera.jpg" /></div>
+  <div><img src="select-landmark.png" /></div>
+  <div><img src="trace-maps.png" /></div>
+
+  <div><img src="spacetime-data-ed.png" /></div>
+
+  <div><b>Stap 7:</b> nieuwe dingen maken!</div>
+
+  <div><img src="oldnyc1.png" /></div>
+  <div><img src="oldnyc2.png" /></div>
+
+  <div><img src="maps-by-decade.gif" /></div>
+
+  <div class="video">
+    <video autoplay loop>
+      <source src="fifth-avenue.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div><img src="gergo-leah.jpg" /></div>
+
+  <div>Doorzoekbare historische adressen</div>
+  <div><img class="white" src="city-directory-example-2.jpg" /></div>
+  <div><img class="white" src="84½-fulton.jpg" /></div>
+  <div><img src="sands-bottles.jpg" /></div>
+  <div><img src="100-fulton.jpg" /></div>
+  <div><img src="100-fulton-streetview.jpg" /></div>
+
+  <div><img src="building-inspector-terminal.png" /></div>
+  <div><img src="west-village.jpg" /></div>
+
+  <div class="iframe">
+    <iframe src="http://bertspaan.nl/tutorial-historical-addresses/" width="100%" height="100%"></iframe>
+  </div>
+
+  <div><strong>Dank!</strong> Meer info: <a href="http://spacetime.nypl.org">spacetime.nypl.org</a></div>
+</body>
+</html>
