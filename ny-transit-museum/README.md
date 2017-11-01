@@ -6,7 +6,7 @@ __Link to slides: http://bertspaan.nl/nypl-talks/ny-transit-museum__
 
 ## Collections about public transport in NYPL Digital Collections
 
-Only a subset!
+Below you can find a list of links to collections about public transportation in NYPL’s Digital Collections. This list is not meant to be complete, but it will serve as a starting point for those interested in exploring the history of New York City’s public transport system using the digizited material from the New York Public Library.
 
 ### Maps
 
