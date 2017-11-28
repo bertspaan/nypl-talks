@@ -2,11 +2,18 @@
 
 This repository containes the slides of my short presentation during [the meetup on Wednesday, November 1, 2017](https://www.meetup.com/historical-data-and-maps-at-nypl/events/244072360/) at the [New York Transit Museum](http://www.nytransitmuseum.org/). This meetup was part of [Historical Maps & Data at NYPL](https://www.meetup.com/historical-data-and-maps-at-nypl/), the meetup series of NYPL’s [NYC Space/Time Directory](http://spacetime.nypl.org) project.
 
-__Link to slides: http://bertspaan.nl/nypl-talks/ny-transit-museum__
+__Link to slides: http://bertspaan.nl/nypl-talks/ny-transit-museum__ (use the arrow keys or space bar to move between slides)
+
+__Maps and notes of the presentation by Andrew Lynch:__ https://github.com/bertspaan/transit-maps
+
+More information:
+
+- [NYC Space/Time Directory](http://spacetime.nypl.org)
+- [New York Transit Museum](http://www.nytransitmuseum.org/)
 
 ## Collections about public transport in NYPL Digital Collections
 
-Below you can find a list of links to collections about public transportation in NYPL’s Digital Collections. This list is not meant to be complete, but it will serve as a starting point for those interested in exploring the history of New York City’s public transport system using the digizited material from the New York Public Library.
+Below you can find a list of links to collections about public transportation in NYPL’s [Digital Collections](http://digitalcollections.nypl.org). This list is not meant to be complete, but it will serve as a starting point for those interested in exploring the history of New York City’s public transport system using the digizited material from the New York Public Library.
 
 ### Maps
 
