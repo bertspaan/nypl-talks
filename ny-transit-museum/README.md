@@ -4,7 +4,7 @@ This repository containes the slides of my short presentation during [the meetup
 
 __Link to slides: http://bertspaan.nl/nypl-talks/ny-transit-museum__ (use the arrow keys or space bar to move between slides)
 
-__Maps and notes of the presentation by Andrew Lynch:__ https://github.com/bertspaan/transit-maps
+__Maps and notes of the presentation by Andrew Lynch:__ https://github.com/bertspaan/andrew-lynch-transit-maps
 
 More information:
 
