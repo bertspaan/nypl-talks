@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>NYPL’s NYC Space/Time Directory</title>
+    <meta name="author" content="Bert Spaan">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/prism.css">
+    <link rel="stylesheet" href="css/theme.css" id="theme">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- Resolution: 1280 x 800 -->
+
+    <div class="reveal">
+      <div class="slides">
+
+        <section class="block-text" data-background="../../nypl-talks-assets/images/nypl-main-branch.jpg">
+          <div>
+            <span class="block"><strong>NYPL - The NYC Space/Time Directory</strong></span>
+          </div>
+          <div>
+            <span class="block">Bert Spaan</span>
+          </div>
+          <span class="caption">
+            HackaLOD 2018
+          </span>
+        </section>
+
+        <section data-background="../../nypl-talks-assets/images/92e58d86-3a90-1ae2-e040-e00a18063187.jpg">
+          <span class="caption">
+            <a href="https://digitalcollections.nypl.org/items/92e58d86-3a90-1ae2-e040-e00a18063187">
+            The New York Public Library Exterior (1910)
+            </a>
+          </span>
+        </section>
+
+        <section data-background="../../nypl-talks-assets/images/9c04e119-9a0b-62c9-e040-e00a180647b9.jpg">
+          <span class="caption">
+            <a href="https://digitalcollections.nypl.org/items/9c04e119-9a0b-62c9-e040-e00a180647b9">
+            View of the Distributing Reservoir on Murray’s Hill (1842)
+            </a>
+          </span>
+        </section>
+
+        <section>
+          <img class="stretch" src="../../nypl-talks-assets/images/nypl-locations.jpg" />
+          <span class="caption">
+            <a href="https://www.nypl.org/about/locations">
+              NYPL: 4 onderzoeksbibliotheken en 88 wijkbibliotheken
+            </a>
+          </span>
+        </section>
+
+        <section>
+          <h3>De NYC Space/Time Directory:</h3>
+          <ol>
+            <li>Kaarten, foto’s, documenten uit de collecties van de NYPL;</li>
+            <li class="fragment" data-autoslide="1000">Digitalisatie;</li>
+            <li class="fragment" data-autoslide="1000">Van afbeelding naar data (o.a. crowdsourcing, OCR);</li>
+            <li class="fragment" data-autoslide="1000">Historische geografische open data;</li>
+            <li class="fragment" data-autoslide="1000">Nieuwe inzichten door ’t combineren van datasets;</li>
+            <li class="fragment"><strong>
+              Een Doorzoekbare Atlas</strong> van <strong>New York City!</strong>
+            </li>
+          </ol>
+        </section>
+
+        <section data-background="../../nypl-talks-assets/images/diu.jpg">
+          <span class="caption">
+            Fotostudio van de NYPL in Queens
+          </span>
+        </section>
+
+        <section>
+          <img class="stretch" src="../../nypl-talks-assets/images/digital-collections.png" />
+          <span class="caption">
+            <a href="https://digitalcollections.nypl.org/items/510d47e1-2d9a-a3d9-e040-e00a18064a99"> Digital Collections: de beeldbank van de NYPL</a>
+          </span>
+        </section>
+
+        <section data-background="../../nypl-talks-assets/images/510d47d9-7c0b-a3d9-e040-e00a18064a99.jpg">
+          <span class="caption">
+            <a href="https://digitalcollections.nypl.org/items/510d47d9-7c0b-a3d9-e040-e00a18064a99">
+            Afbeeldinge van de Stadt Amsterdam in Nieuw Neederlandt (1660)
+            </a>
+          </span>
+        </section>
+
+        <section data-background="../../nypl-talks-assets/images/510d47df-f437-a3d9-e040-e00a18064a99.jpg">
+          <span class="caption">
+            <a href="https://digitalcollections.nypl.org/items/510d47df-f437-a3d9-e040-e00a18064a99">
+            The Ratzer Map Of New York City (1767)
+            </a>
+          </span>
+        </section>
+
+        <section data-background="../../nypl-talks-assets/images/510d47d9-4fb6-a3d9-e040-e00a18064a99.jpg">
+          <span class="caption">
+            <a href="https://digitalcollections.nypl.org/items/510d47d9-4fb6-a3d9-e040-e00a18064a99">
+              Looking southwest to Manhattan from Manhattan Bridge (1937)
+            </a>
+          </span>
+        </section>
+
+        <section data-background="../../nypl-talks-assets/images/40a6a2f0-474d-0132-a8bc-58d385a7bbd0.jpg">
+          <span class="caption">
+            <a href="https://digitalcollections.nypl.org/items/40a6a2f0-474d-0132-a8bc-58d385a7bbd0">
+              Auto-digest register and trade weekly (1918)
+            </a>
+          </span>
+        </section>
+
+        <section data-background="../../nypl-talks-assets/images/510d47e2-543c-a3d9-e040-e00a18064a99.jpg">
+          <span class="caption">
+            <a href="https://digitalcollections.nypl.org/items/510d47e2-543c-a3d9-e040-e00a18064a99">
+              Atlas of the City of New York, Borough of Manhattan (1921)
+            </a>
+          </span>
+        </section>
+
+        <section data-background="../../nypl-talks-assets/images/510d47dd-13bc-a3d9-e040-e00a18064a99.jpg">
+          <span class="caption">
+            <a href="https://digitalcollections.nypl.org/items/510d47dd-13bc-a3d9-e040-e00a18064a99">
+              Manhattan: 86th Street - Amsterdam Avenue (1918)
+            </a>
+          </span>
+        </section>
+
+        <section data-background="../../nypl-talks-assets/images/86st-street-view.jpg">
+          <span class="caption">
+            <a href="https://www.google.nl/maps/@40.7875017,-73.9745928,3a,90y,125.51h,106.5t/data=!3m6!1e1!3m4!1sgJwyWG8RqwA-C_NEVXcmOg!2e0!7i13312!8i6656">
+              West 86th Street in Google Street View (2016)
+            </a>
+          </span>
+        </section>
+
+        <section data-transition="slide" data-transition-speed="slow">
+          <img class="stretch" src="../../nypl-talks-assets/images/locomobile.png" />
+          <img class="fragment fade-up" src="../../nypl-talks-assets/images/locomobile-price.png" />
+          <span class="caption">
+            <a href="https://digitalcollections.nypl.org/items/510d47de-09dd-a3d9-e040-e00a18064a99">Locomobile “30” (1909)</a>
+          </span>
+        </section>
+
+        <section>
+          <img class="stretch" src="../../nypl-talks-assets/images/510d47de-09da-a3d9-e040-e00a18064a99.png" />
+          <span class="caption">
+            <a href="https://digitalcollections.nypl.org/items/510d47de-09da-a3d9-e040-e00a18064a99">The Locomobile Book (1909)</a>
+          </span>
+        </section>
+
+        <section data-background="../../nypl-talks-assets/images/510d47dd-3da9-a3d9-e040-e00a18064a99.jpg">
+          <img class="fragment" src="../../nypl-talks-assets/images/kallman.png" />
+          <span class="caption">
+            <a href="https://digitalcollections.nypl.org/items/510d47dd-3da9-a3d9-e040-e00a18064a99">L. Kallman’s Hardware, Grand Street &amp; Norfolk Street (1900)
+            </a>
+          </span>
+        </section>
+
+        <section data-background-video="../../nypl-talks-assets/images/110d5dd0-79db-0134-6d79-00505686a51c.mp4">
+          <span class="caption">
+            <a href="https://digitalcollections.nypl.org/items/110d5dd0-79db-0134-6d79-00505686a51c">
+              Trow’s General Directory of Manhattan and Bronx (1899/1900)
+            </a>
+          </span>
+        </section>
+
+        <section data-background-video="../../nypl-talks-assets/images/943be7e8-a635-394f-e040-e00a18061a98.mp4">
+          <span class="caption">
+            <a href="https://digitalcollections.nypl.org/items/943be7e8-a635-394f-e040-e00a18061a98">
+              Sanborn Insurance Atlas of New York City, Plate 26 (1894)
+            </a>
+          </span>
+        </section>
+
+        <section data-background="../../nypl-talks-assets/images/83c65380-5293-0134-830a-00505686a51c.jpg">
+          <span class="caption">
+            <a href="https://digitalcollections.nypl.org/items/83c65380-5293-0134-830a-00505686a51c">
+              John Canvin, pilot, 309 Water, h. 23 Hamilton
+            </a>
+          </span>
+        </section>
+
+        <section>
+          <video class="stretch" data-autoplay src="../../nypl-talks-assets/images/23-hamilton-street.mp4"></video>
+          <span class="caption">
+            Op zoek naar 23 Hamilton Street...
+          </span>
+        </section>
+
+        <section>
+          <p>Hamilton Street bestaat niet meer...</p>
+        </section>
+
+        <section data-background="../../nypl-talks-assets/images/510d47e0-bf40-a3d9-e040-e00a18064a99.jpg">
+          <span class="caption">
+            <a href="https://digitalcollections.nypl.org/items/510d47e0-bf40-a3d9-e040-e00a18064a99">
+              William Perris, Maps of the city of New York (1857)
+            </a>
+          </span>
+        </section>
+
+        <section data-background="../../nypl-talks-assets/images/knickerbocker-village.jpg">
+          <span class="caption">
+            <a href="https://www.google.nl/maps/@40.7092425,-73.9979319,190a,35y,45.84h,56.82t/data=!3m1!1e3">
+              Knickerbocker Village, in Google Earth
+            </a>
+          </span>
+        </section>
+
+        <section>
+          <p>Een database van historische adressen!</p>
+          <p class="fragment"><mark><strong>Met behelp van de kaarten van de NYPL!</strong></mark></p>
+        </section>
+
+        <section data-background="../../nypl-talks-assets/images/510d47e2-548f-a3d9-e040-e00a18064a99.jpg">
+          <span class="caption">
+            <a href="https://digitalcollections.nypl.org/items/510d47e2-548f-a3d9-e040-e00a18064a99">
+              Detail of Plate 3, Atlas of the Bronx (1921)
+            </a>
+          </span>
+        </section>
+
+        <section>
+          <img src="../../nypl-talks-assets/images/mapwarper-9464-rectify.png" />
+          <span class="caption">
+            <a href="http://maps.nypl.org/warper/maps/9464#Rectify_tab">
+              Map Warper: crowdsourced georefereren van historische kaarten
+            </a>
+          </span>
+        </section>
+
+        <section>
+          <img src="../../nypl-talks-assets/images/mapwarper-9464-crop.png" />
+          <span class="caption">
+            <a href="http://maps.nypl.org/warper/maps/9464#Crop_tab">
+              Kaart uitsnijden, zodat alleen cartografisch materiaal overblijft
+            </a>
+          </span>
+        </section>
+
+        <section>
+          <img src="../../nypl-talks-assets/images/mapwarper-9464-preview.png" />
+          <span class="caption">
+            <a href="http://maps.nypl.org/warper/maps/9464#Preview_tab">
+              Resultaat bovenop OpenStreetMap
+            </a>
+          </span>
+        </section>
+
+        <section>
+          <img src="../../nypl-talks-assets/images/mapwarper-layer-883.png" />
+          <span class="caption">
+            <a href="http://maps.nypl.org/warper/layers/883">
+              Alle kaartbladen van één atlas, aan elkaar geplakt
+            </a>
+          </span>
+        </section>
+
+        <section data-background-video="../../nypl-talks-assets/images/scrollnyc.mp4" data-background-video-loop="true">
+          <span class="caption">
+            <a href="http://spacetime.nypl.org/scrollnyc/">
+              ScrollNYC: Manhattan, van Nieuw Amsterdam naar de 20e eeuw
+            </a>
+          </span>
+        </section>
+
+        <section>
+          <img class="stretch" src="../../nypl-talks-assets/images/building-inspector.png"></video>
+          <span class="caption">
+            <a href="http://buildinginspector.nypl.org/">
+              Building Inspector: adres- en gebouwdata uit gegeorefereerde kaarten
+            </a>
+          </span>
+        </section>
+
+        <section>
+          <video class="stretch" data-autoplay src="../../nypl-talks-assets/images/building-inspector.mp4"></video>
+          <span class="caption">
+            <a href="http://buildinginspector.nypl.org/">
+              Huisnummers invoeren met behulp van crowdsourcing
+            </a>
+          </span>
+        </section>
+
+        <section>
+          <img class="stretch" src="../../nypl-talks-assets/images/tracing-qgis.png" />
+          <span class="caption">
+            <a href="https://github.com/nypl-spacetime/nyc-historical-streets">
+              Straten overtrekken met QGIS
+            </a>
+          </span>
+        </section>
+
+        <section data-background-iframe="http://mgiraldo.github.io/centerlines">
+          <span class="caption">
+            <a href="http://mgiraldo.github.io/centerlines">
+              Overtrekken van straten van een historische atlas
+            </a>
+          </span>
+        </section>
+
+        <section>
+          <img class="stretch" src="../../nypl-talks-assets/images/surveyor.png" />
+          <span class="caption">
+            <a href="http://spacetime.nypl.org/surveyor">
+              Surveyor: plaats historische foto's op de kaart
+            </a>
+          </span>
+        </section>
+
+        <section data-background-video="../../nypl-talks-assets/images/surveyor-map.mp4">
+          <span class="caption">
+            <a href="http://spacetime.nypl.org/surveyor-map">
+              Resultaten van Surveyor op de kaart
+            </a>
+          </span>
+        </section>
+
+        <section>
+          <img class="stretch" src="../../nypl-talks-assets/images/spacetime-etl.svg" />
+          <span class="caption">
+            Data uit verschillende databronnen, op één plek in één formaat
+          </span>
+        </section>
+
+        <section>
+          <img class="stretch" src="../../nypl-talks-assets/images/spacetime-data.png" />
+          <span class="caption">
+            <a href="http://spacetime.nypl.org/#data">
+              Open historische datasets op spacetime.nypl.org
+            </a>
+          </span>
+        </section>
+
+        <section>
+          <img src="../../nypl-talks-assets/images/qgis.gif" />
+          <span class="caption">
+            Datasets uit de NYC Space/Time Directory, gevisualiseerd met QGIS
+          </span>
+        </section>
+
+        <section>
+          <img src="../../nypl-talks-assets/images/maps-by-decade.gif" />
+          <span class="caption">
+            <a href="http://spacetime.nypl.org/maps-by-decade">
+              Maps by Decade: vind historische kaarten op een visuele manier
+            </a>
+          </span>
+        </section>
+
+        <section data-background-video="../../nypl-talks-assets/images/fifth-avenue.mp4" data-background-video-loop="true">
+          <span class="caption">
+            <a href="http://publicdomain.nypl.org/fifth-avenue/">
+              Fifth Avenue from Start to Finish: vergelijk 1911 met New York vandaag
+            </a>
+          </span>
+        </section>
+
+        <section>
+          <img class="stretch" src="../../nypl-talks-assets/images/inference.svg" />
+          <span class="caption">
+            Nieuwe inzichten door het combineren van datasets
+          </span>
+        </section>
+
+        <section data-background="../../nypl-talks-assets/images/west-village.jpg">
+          <span class="caption">
+            <a href="http://bertspaan.nl/west-village">
+              huisnummers + straatnamen = historische adressen
+            </a>
+          </span>
+        </section>
+
+        <section>
+          <video class="stretch" loop data-autoplay src="../../nypl-talks-assets/images/historical-addresses.mp4"></video>
+          <span class="caption">
+            <a href="https://github.com/nypl-spacetime/tutorial-historical-addresses">
+              Een simpele geocoder voor historische adressen
+            </a>
+          </span>
+        </section>
+
+        <section data-background="../../nypl-talks-assets/images/city-directory.jpg">
+          <span class="caption">
+            <a href="https://digitalcollections.nypl.org/search/index?utf8=%E2%9C%93&keywords=city+directory">
+              Gedigitaliseerde City Directory’s — van ± 1790 to 1920
+            </a>
+          </span>
+        </section>
+
+        <section>
+          <img src="../../nypl-talks-assets/images/crf.png" />
+          <span class="caption">
+            <a href="https://github.com/nypl-spacetime/city-directory-entry-parser">
+              Van tekst naar data met OCR en machine learning
+            </a>
+          </span>
+        </section>
+
+        <section>
+          <table>
+            <tr><td>Fifth</td> <td>⟶</td> <td>Fifth Avenue</td></tr>
+            <tr><td>Rivington</td><td>⟶</td><td>Rivington Street</td></tr>
+            <tr><td>Av B</td><td>⟶</td><td>Avenue B</td></tr>
+            <tr><td>W. 17th</td><td>⟶</td><td>West 17th Street</td></tr>
+            <tr><td>B'way</td><td>⟶</td><td>Broadway</td></li>
+            <tr><td>Grace Ct.</td><td>⟶</td><td>Grace Court</td></tr>
+            <tr><td>Thirty-First</td><td>⟶</td><td>31st Street</td></tr>
+            <tr><td>B'ry</td><td>⟶</td><td>Bowery</td></tr>
+          </table>
+          <span class="caption">
+            <a href="https://github.com/nypl-spacetime/nyc-street-normalizer">
+              Straatnamen uit City Directory’s moeten worden genormaliseerd
+            </a>
+          </span>
+        </section>
+
+        <section data-background-video="../../nypl-talks-assets/images/lower-east-side-1854.mp4" data-background-video-loop="true">
+          <span class="caption">
+            <a href="http://spacetime.nypl.org/lower-east-side-1854/">
+              City Directory’s, gegeocodeerd met historische adresdata
+            </a>
+          </span>
+        </section>
+
+        <section>
+          <video class="stretch" data-autoplay src="../../nypl-talks-assets/images/atlas.mp4"></video>
+          <span class="caption">
+            Een nieuwe interface om alle NYC Space/Time Directory-data te doorzoeken
+          </span>
+        </section>
+
+        <section>
+          <img class="stretch" src="../../nypl-talks-assets/images/github.png" />
+          <span class="caption">
+            <a href="https://github.com/nypl-spacetime">
+              De NYC Space/Time Directory op GitHub
+            </a>
+          </span>
+        </section>
+
+        <section>
+          <img class="stretch" src="../../nypl-talks-assets/images/meetup.png" />
+          <span class="caption">
+            <a href="https://www.meetup.com/historical-data-and-maps-at-nypl/">
+              Meetup-avonden over de NYC Space/Time Directory
+            </a>
+          </span>
+        </section>
+
+        <section data-background="../../nypl-talks-assets/images/brooklyn-heights.jpg">
+          <span class="caption">
+            Stadswandeling in Brooklyn Heights, op een mooie lenteavond
+          </span>
+        </section>
+
+        <section class="block-text" data-background="../../nypl-talks-assets/images/3f04ab00-a763-0133-8592-00505686d14e.jpg">
+          <h2><span class="block">Einde!</span></h2>
+          <div>
+            <strong><a class="block" href="http://bertspaan.nl/nypl-talks/hackalod">bertspaan.nl/nypl-talks/hackalod</a></strong>
+          </div>
+          <div>
+            <a class="block" href="http://spacetime.nypl.org/">spacetime.nypl.org</a>
+          </div>
+          <div>
+            <a class="block" href="https://github.com/nypl-spacetime/">github.com/nypl-spacetime</a>
+          </div>
+          <div>
+            <a class="block" href="https://twitter.com/bertspaan/">@bertspaan</a>
+          </div>
+        </section>
+
+      </div>
+    </div>
+    <div id="caption-container">
+      <div id="caption">
+      </div>
+    </div>
+    <div id="nypl-container">
+      <img id="nypl" src="../../nypl-talks-assets/images/nypl-white.svg" />
+    </div>
+    <script src="js/head.load.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
